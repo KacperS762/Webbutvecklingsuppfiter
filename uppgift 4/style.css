@@ -1,0 +1,62 @@
+h1 {
+    color: blue;
+    text-align: center;
+    background-color: yellow;
+    font-weight: bold;
+    font-style: 'Roboto'
+}   
+h2 {
+    text-align: center;
+    background-color: lightgrey;
+    font-weight: bold;
+    font-style: 'Roboto';
+    border: 2px solid black;
+    margin: 30px;
+    font-size: 30px;
+}
+h3 {
+    text-align: center;
+    background-color: lightgrey;
+    font-weight: bold;
+    font-style: 'Roboto';
+    border: 2px solid black;
+    margin: 30px; 
+    font-size: 30px;
+}
+
+h4 {
+    text-align: center;
+    background-color: lightgrey;
+    font-weight: bold;
+    font-style: 'Roboto';
+    border: 2px solid black;
+    margin: 30px;
+    font-size: 30px;
+}
+
+div.htmldiv {
+  text-align: left;
+}
+div.cssdiv {
+  text-align: left;
+}
+div.jsdiv {
+  text-align: left;
+}
+
+p {
+    text-align: justify;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    margin: 20px;
+}
+
+body {
+    background-image: url(./img/showcase.jpg);
+}
+
+h6 {
+    text-align: center;
+    font-weight: bold;
+    font-style: 'Roboto';
+}
