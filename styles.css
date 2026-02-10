@@ -1,0 +1,116 @@
+/* kacper ee23b */
+
+body {
+    background-color: #ffdeb3;
+    font-family: 'Arial', sans-serif;
+    color: #1a1a1a;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 1000px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.länkar {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.länkar span {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.länkar span:hover {
+    text-decoration: underline;
+}
+
+.bas {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1400px;
+    width: 100%;
+    gap: 20px;
+}
+
+.bild {
+    flex: 33%;
+    max-width: 300px;
+}
+
+.bild img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.mitten {
+    flex: 66%;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.intro {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+.rader {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+}
+
+.sida {
+    flex: 30%;
+}
+
+h3 {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+}
+
+ul {
+    padding: 0;
+    line-height: 1.8;
+}
+
+.steg p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.titel {
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+/* kacper ee23b */
