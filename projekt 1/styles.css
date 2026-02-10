@@ -1,3 +1,5 @@
+/* kacper ee23b */
+
 body {
     background-color: #ffdeb3;
     font-family: 'Arial', sans-serif;
@@ -24,21 +26,21 @@ h1 {
     margin-bottom: 20px;
 }
 
-.nav-links {
+.länkar {
     font-size: 1.2em;
     margin-bottom: 40px;
 }
 
-.nav-links span {
+.länkar span {
     margin: 0 10px;
     cursor: pointer;
 }
 
-.nav-links span:hover {
+.länkar span:hover {
     text-decoration: underline;
 }
 
-.main-container {
+.bas {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -47,40 +49,40 @@ h1 {
     gap: 20px;
 }
 
-.side-image {
-    flex: 1;
+.bild {
+    flex: 33%;
     max-width: 300px;
 }
 
-.side-image img {
+.bild img {
     width: 100%;
     height: auto;
     border-radius: 4px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.center-content {
-    flex: 2;
+.mitten {
+    flex: 66%;
     text-align: center;
     padding: 0 20px;
 }
 
-.intro-text {
+.intro {
     font-size: 1.1em;
     line-height: 1.6;
     margin-bottom: 40px;
     font-weight: 500;
 }
 
-.recipe-columns {
+.rader {
     display: flex;
     justify-content: center;
     gap: 40px;
     text-align: center;
 }
 
-.column {
-    flex: 1;
+.sida {
+    flex: 30%;
 }
 
 h3 {
@@ -91,17 +93,16 @@ h3 {
 }
 
 ul {
-    list-style-type: none;
     padding: 0;
     line-height: 1.8;
 }
 
-.instructions p {
+.steg p {
     margin-bottom: 15px;
     line-height: 1.5;
 }
 
-.step-title {
+.titel {
     font-weight: bold;
 }
 
@@ -111,3 +112,5 @@ footer {
     font-size: 1.5em;
     font-weight: 300;
 }
+
+/* kacper ee23b */
