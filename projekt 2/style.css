@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.behallare {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+header, .sidobild, .produkt, footer {
+    background-color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+
+header {
+    height: 120px;
+    padding: 0 40px;
+    justify-content: space-between;
+}
+
+.sokfalt input {
+    padding: 8px;
+    width: 200px;
+}
+
+.mittendel {
+    display: flex;
+    gap: 20px;
+}
+
+.sidobild {
+    width: 150px;
+    border: 1px solid #888;
+}
+
+.rutnat {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.produkt {
+    height: 150px;
+}
+
+footer {
+    height: 100px;
+}
