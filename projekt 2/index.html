@@ -1,48 +1,75 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webbaffär</title>
-    <link rel="stylesheet" href="stil.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Webbaffär</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-    <div class="behallare">
-        
-        <header>
-            <div class="logotyp">HEADER, LOGGA</div>
-            <div class="sokfalt">
-                <input type="text" placeholder="Sök bildelar...">
-            </div>
-        </header>
-
-        <div class="mittendel">
-            
-            <aside class="sidobild">
-                SIDOBILD
-            </aside>
-
-            <main class="rutnat">
-                <div class="produkt">produkt 1</div>
-                <div class="produkt">produkt 2</div>
-                <div class="produkt">produkt 3</div>
-                <div class="produkt">produkt 4</div>
-                <div class="produkt">produkt 5</div>
-                <div class="produkt">produkt 6</div>
-            </main>
-
-            <aside class="sidobild">
-                SIDOBILD
-            </aside>
-
-        </div>
-
-        <footer>
-            footer
-        </footer>
-
+  <header class="topp">
+    <div class="logga">K Motor Tuning</div>
+    <div class="sokfalt">
+      <input type="text" placeholder="Sök delar...">
+      <button class="sokknapp">Sök</button>
     </div>
+  </header>
+
+  <main class="behallare">
+    <aside class="sidobild">
+      <img src="img/cls63s.webp" alt="Sidbild" />
+    </aside>
+
+    <section class="rutnat">
+      
+      <div class="produkt">
+        <img src="img/Fuel-Injector.webp" alt="spridare" />
+        <p class="pris">Spridare - 599 kr</p>
+        <p class="beskrivning1">I lager</p>
+        <button class="kopknapp">Köp</button>
+      </div>
+
+      <div class="produkt">
+        <img src="img/Garrett_Performance_G35-1050_Web.jpg" alt="turbo" />
+        <p class="pris">Garrett Turbo - 5000kr</p>
+        <p class="beskrivning1">I lager</p>
+        <button class="kopknapp">Köp</button>
+      </div>
+
+      <div class="produkt">
+        <img src="img/shopping (1).webp" alt="headers" />
+        <p class="pris">Equal Length Headers - 1000kr</p>
+        <p class="beskrivning1">I lager</p>
+        <button class="kopknapp">Köp</button>
+      </div>
+
+      <div class="produkt">
+        <img src="img/shopping.webp" alt="ja vene" />
+        <p class="pris">Bussning - 1500kr</p>
+        <p class="beskrivning1">I lager</p>
+        <button class="kopknapp">Köp</button>
+      </div>
+
+      <div class="produkt">
+        <img src="img/stötdämpare.webp" alt="stöt" />
+        <p class="pris">Stötdämpare - 2000kr</p>
+        <p class="beskrivning1">I lager</p>
+        <button class="kopknapp">Köp</button>
+      </div>
+
+      <div class="produkt">
+        <img src="img/V8piston.webp" alt="cylinder" />
+        <p class="pris">Cylinder - 3000kr</p>
+        <p class="beskrivning2"> INTE I LAGER </p>
+        <button class="kopknapp">Köp</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"> 
+    <p>2026 K Motor Tuning. Bästa delarna från Europa.</p>
+  </footer>
 
 </body>
 </html>
